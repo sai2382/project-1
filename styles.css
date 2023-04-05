@@ -1,0 +1,141 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+.logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section Styles */
+.hero {
+  background-image: url('https://img.freepik.com/free-vector/delivery-design-concept-set-courier-takes-parcel-recipient-searches-delivery-route-navigator-smartphone-customer-receives-his-order-vector-illustration_1284-76421.jpg?w=1380&t=st=1680587695~exp=1680588295~hmac=3ed229ea57ed1576de103c2975a603fa81a6086936b3bdd21d85b3c01df7969c');
+  background-size: cover;
+  background-position: center;
+    
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  padding: 0 20px;
+  font=bold
+}
+body {
+  background-image: url('https://images.unsplash.com/photo-1573397493257-8eeadad4b3e3');
+  background-size: cover;
+}
+This will set the background image of the body to the Unsplash photo by Melissa Askew, and the background-size: cover property ensures that the image covers the entire background of the page.
+
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+/* Products Section Styles */
+.products {
+  margin: 40px auto;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.product {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 2px 2px 5px #999;
+}
+
+.product img {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.product p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+	@keyframes example {
+			from {transform: translateX(-98%);} /* starting position */
+			to {transform: translateX(98%);} /* ending position */
+		}
+
+		/* Apply animation to element */
+
+            #myElement2 {
+			animation-name: example; /* animation name */
+			animation-duration: 6s; /* animation duration */
+			animation-iteration-count: infinite; /* animation repeat */
+			animation-direction: alternate; /* animation direction */
+		}
+
+.btn {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}

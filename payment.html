@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment Page</title>
+	<link rel="stylesheet" href="style5.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="logo">
+				<a href="#"><img src="https://www.logodesignteam.com/images/portfolio-images/ecommerce-websites-logo-design/ecommerce-websites-logo-design20.jpg" alt="Logo"></a>
+			</div>
+			<div class="cart">
+				<a href="cart.html"><i class="fa fa-shopping-cart"></i>Cart (2)</a>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<section class="payment">
+			<h2>Payment Details</h2>
+			<form action="orderconfirmation.html" method="post">
+				<label for="card-number">Card Number:</label>
+				<input type="text" id="card-number" name="card-number" required>
+				<label for="expiry-date">Expiry Date:</label>
+				<input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+				<label for="cvv">CVV:</label>
+				<input type="text" id="cvv" name="cvv" required>
+				<label for="name">Name on Card:</label>
+				<input type="text" id="name" name="name" required>
+				<button type="submit">Pay Now</button>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2021 Payment Page. All rights reserved.</p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User Registration and Login</title>
+    <style>
+      body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      form {
+        border: 1px solid #ccc;
+        background-color: #fff;
+        width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        box-shadow: 2px 2px 5px #999;
+      }
+
+      input[type=text], input[type=password], input[type=email] {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0 15px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      button {
+        background-color: #4CAF50;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+      }
+
+      button:hover {
+        background-color: #45a049;
+      }
+
+      .loginbtn {
+        background-color: #008CBA;
+      }
+
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .registerbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+        border-radius: 4px;
+      }
+
+      .registerbtn:hover {
+        opacity: 1;
+      }
+
+      .container {
+        padding: 16px;
+      }
+     body {
+  background-color: #f2f2f2; /* replace with desired color */
+}
+
+      span.psw {
+        float: right;
+        padding-top: 16px;
+      }
+
+      @media screen and (max-width: 600px) {
+        .cancelbtn, .registerbtn, .loginbtn {
+          width: auto;
+          float: none;
+        }
+      }
+    </style>
+  </head>
+
+  <body background-color:"blue">
+    <h1>User Registration and Login</h1>
+
+    <form action="catalog.html" method="post">
+      <div class="container">
+        <h2>Register</h2>
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+
+        <label for="name"><b>Name</b></label>
+        <input type="text" placeholder="Enter Name" name="name" required>
+
+        <label for="email"><b>Email</b></label>
+        <input type="email" placeholder="Enter Email" name="email" required>
+
+        <label for="password"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" required>
+
+        <label for="password-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="password-repeat" required>
+
+        <div class="clearfix">
+          <button type="button" class="loginbtn" onclick="location.href='login.html'">Login</button>
+          <button type="submit" class="registerbtn">Register</button>
+        </div>
+      </div>
+    </form

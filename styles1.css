@@ -1,0 +1,82 @@
+/* Style the header and navigation */
+header {
+  background-color: #232f3e;
+  color: white;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.search input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  width: 250px;
+}
+
+.search button[type="submit"] {
+  padding: 5px;
+  background-color: #f0c14b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Style the product section */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 250px;
+  text-align: center;
+}
+
+.product img {
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.product h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.product p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.product p.price {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product button {
+  padding: 5px;
+  background-color: #f0c14b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

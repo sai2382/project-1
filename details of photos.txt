@@ -1,0 +1,24 @@
+ //phone
+"https://fdn2.gsmarena.com/vv/pics/google/google-pixel-5-5g-1.jpg"
+
+
+ laptop
+"https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGVjaHxlbnwwfHwwfHw%3D&w=1000&q=80" 
+
+
+// smart watch
+"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61t6m2MRveL._SY355_.jpg"//ipad
+
+
+
+//ipad
+"https://m.media-amazon.com/images/I/71blz6ztPgL._AC_UY327_FMwebp_QL65_.jpg" 
+
+//logo
+ https://www.logodesignteam.com/images/portfolio-images/ecommerce-websites-logo-design/ecommerce-websites-logo-design20.jpg
+
+
+
+<img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGVjaHxlbnwwfHwwfHw%3D&w=1000&q=80" alt="Product Image" width="100" height="100">
+
+<img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61t6m2MRveL._SY355_.jpg" alt="Product Image" width="100" height="100">
